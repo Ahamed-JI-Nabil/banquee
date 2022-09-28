@@ -1,12 +1,14 @@
 import React from 'react';
-import AllInOne from './AllInOne';
-import SendAndRecive from './SendAndRecive';
+import Cards from './Cards';
+import Features from './Features'
+import Transactions from './Transactions';
 
 const Home = () => {
     return (
         <div className=''>
-            <AllInOne></AllInOne>
-            <SendAndRecive></SendAndRecive>
+            <Features></Features>
+            <Transactions></Transactions>
+            <Cards></Cards>
         </div>
     );
 };
