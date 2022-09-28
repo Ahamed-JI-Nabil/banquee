@@ -1,10 +1,12 @@
 import React from 'react';
 import AllInOne from './AllInOne';
+import SendAndRecive from './SendAndRecive';
 
 const Home = () => {
     return (
-        <div>
+        <div className=''>
             <AllInOne></AllInOne>
+            <SendAndRecive></SendAndRecive>
         </div>
     );
 };
