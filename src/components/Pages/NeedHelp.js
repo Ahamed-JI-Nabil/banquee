@@ -5,22 +5,22 @@ const NeedHelp = () => {
         <div>
             <div className='flex justify-center my-36'>
                 <div className='w-96 mr-20'>
-                    <h1 className='text-6xl'>Need help?</h1>
+                    <h1 className='text-6xl mb-12 font-semibold'>Need help?</h1>
                     <div className='flex items-center'>
                         <i class="fa-solid fa-phone text-base text-accent  w-8 h-8 rounded-full bg-[#e8f2ee] text-center p-1 mr-6"></i>
                         <div>
-                            <p>Support Hotline</p>
+                            <p className='mb-1'>Support Hotline</p>
                             <p>+49 176 123 456</p>
                         </div>
                     </div>
-                    <div className='flex items-center'>
+                    <div className='flex items-center mt-10'>
                         <i class="fa-solid fa-envelope text-base text-accent  w-8 h-8 rounded-full bg-[#e8f2ee] text-center p-1 mr-6"></i>
-                        <div>
-                            <p>Support Email</p>
+                        <div className=''>
+                            <p className='mb-1'>Support Email</p>
                             <p>help@banquee.com</p>
                         </div>
                     </div>
-                    <p className='text-accent'>Support <i className="fa-solid fa-arrow-right pl-2"></i></p>
+                    <p className='text-accent mt-12'>Support <i className="fa-solid fa-arrow-right pl-2"></i></p>
                 </div>
                 <div className='w-[500px] '>
                     <div tabIndex="0" class="collapse collapse-plus rounded-box  ">
