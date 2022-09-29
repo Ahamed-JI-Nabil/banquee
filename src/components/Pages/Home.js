@@ -3,6 +3,7 @@ import Accounts from './Accounts';
 import AllInOne from './AllInOne';
 import Cards from './Cards';
 import Features from './Features'
+import NeedHelp from './NeedHelp';
 import Transactions from './Transactions';
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <Cards></Cards>
             <AllInOne></AllInOne>
             <Accounts></Accounts>
+            <NeedHelp></NeedHelp>
         </div>
     );
 };
