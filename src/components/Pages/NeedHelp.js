@@ -31,7 +31,7 @@ const NeedHelp = () => {
                         <div class="collapse-content">
                             <p>tabIndex="0" attribute is necessary to make the div focusable</p>
                         </div>
-                        <div class="divider mt-2"></div>
+                        <hr className="mx-0 mt-2" />
                     </div>
                     <div tabIndex="0" class="collapse collapse-plus rounded-box ">
                         <input type="checkbox" class="peer" />
@@ -41,7 +41,7 @@ const NeedHelp = () => {
                         <div class="collapse-content">
                             <p>tabIndex="0" attribute is necessary to make the div focusable</p>
                         </div>
-                        <div class="divider mt-2"></div>
+                        <hr className="mx-0 mt-2" />
                     </div>
                     <div tabIndex="0" class="collapse collapse-plus rounded-box ">
                         <input type="checkbox" class="peer" />
@@ -51,7 +51,7 @@ const NeedHelp = () => {
                         <div class="collapse-content">
                             <p>tabIndex="0" attribute is necessary to make the div focusable</p>
                         </div>
-                        <div class="divider mt-2"></div>
+                        <hr className="mx-0 mt-2" />
                     </div>
                     <div tabIndex="0" class="collapse collapse-open collapse-plus rounded-box ">
                         <input type="checkbox" class="peer" />
@@ -73,7 +73,7 @@ const NeedHelp = () => {
                     </div>
                 </div>
             </div>
-            <div class="divider"></div>
+            <hr className="mx-0 mb-20" />
         </div>
     );
 };

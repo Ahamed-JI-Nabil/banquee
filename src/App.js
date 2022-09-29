@@ -1,5 +1,6 @@
 import './App.css';
 import Home from './components/Pages/Home';
+import Footer from './components/Shared/Footer';
 import NavBar from './components/Shared/NavBar';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="text-black">
       <NavBar></NavBar>
       <Home></Home>
+      <Footer></Footer>
     </div>
   );
 }
