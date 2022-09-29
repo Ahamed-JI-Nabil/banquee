@@ -54,7 +54,7 @@ const NavBar = () => {
                 </div>
                 <div className="navbar-end lg:flex lg:justify-center">
                     <a className='mr-5 text-accent' href="/">Login</a>
-                    <a href='/' className="btn btn-sm bg-accent border-none text-white normal-case px-4 py-2 font-normal hover:text-accent hover:bg-white hover:font-extrabold">Open Account</a>
+                    <a href='/' className="btn btn-sm bg-accent border-none text-white normal-case px-4 py-2 font-normal hover:text-accent hover:bg-secondary hover:font-extrabold">Open Account</a>
                 </div>
             </div>
         </div>

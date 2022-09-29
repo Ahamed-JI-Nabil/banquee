@@ -1,4 +1,6 @@
 import React from 'react';
+import Accounts from './Accounts';
+import AllInOne from './AllInOne';
 import Cards from './Cards';
 import Features from './Features'
 import Transactions from './Transactions';
@@ -9,6 +11,8 @@ const Home = () => {
             <Features></Features>
             <Transactions></Transactions>
             <Cards></Cards>
+            <AllInOne></AllInOne>
+            <Accounts></Accounts>
         </div>
     );
 };

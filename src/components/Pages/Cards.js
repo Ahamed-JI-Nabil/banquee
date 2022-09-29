@@ -2,7 +2,7 @@ import React from 'react';
 
 const Cards = () => {
     return (
-        <div className='flex justify-center items-center px-60 pt-40'>
+        <div className='flex justify-center items-center px-60 pt-40 mb-40'>
             <div className='pr-5 max-w-lg min-h-72 leading-loose'>
                 <p>Cards</p>
                 <h1 className='text-6xl font-bold mb-4 w-80'>Manage your cards</h1>
